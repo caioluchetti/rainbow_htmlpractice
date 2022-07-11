@@ -22,6 +22,7 @@
     justify-content: center;
     flex: 1;
     transition: 1s;
+    display: flex;
 }
 .box2{
     position: relative;
@@ -32,6 +33,7 @@
     justify-content: center;
     flex: 1;
     transition: 1s;
+    display: flex;
 }
 .box3{
     position: relative;
@@ -42,6 +44,7 @@
     justify-content: center;
     flex: 1;
     transition: 1s;
+    display: flex;
 }
 .box4{
     position: relative;
@@ -52,6 +55,7 @@
     justify-content: center;
     flex: 1;
     transition: 1s;
+    display: flex;
 }
 .box5{
     position: relative;
@@ -60,8 +64,10 @@
     padding: 24px;
     align-items: center;
     justify-content: center;
+    display: flex;
     flex: 1;
     transition: 1s;
+    display: flex;
 }
 .box6{
     position: relative;
@@ -72,6 +78,7 @@
     justify-content: center;
     flex: 1;
     transition: 1s;
+    display: flex;
 }
 .box7{
     position: relative;
@@ -82,12 +89,18 @@
     justify-content: center;
     flex: 1;
     transition: 1s;
+    display: flex;
 }
 .imag{
+    
     height: auto;
     width: 100%;
     overflow: hidden;
     transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 
