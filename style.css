@@ -1,0 +1,177 @@
+*{
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.box1{
+    position: relative;
+    background-color: red;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: 1s;
+}
+.box2{
+    position: relative;
+    background-color: orange;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: 1s;
+}
+.box3{
+    position: relative;
+    background-color: yellow;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: 1s;
+}
+.box4{
+    position: relative;
+    background-color: green;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: 1s;
+}
+.box5{
+    position: relative;
+    background-color: blue;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: 1s;
+}
+.box6{
+    position: relative;
+    background-color: indigo;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: 1s;
+}
+.box7{
+    position: relative;
+    background-color: violet;   
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: 1s;
+}
+.imag{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.box1:hover{
+
+    flex:4;
+
+
+}
+.box2:hover{
+
+    flex:4;
+
+
+}
+.box3:hover{
+
+    flex:4;
+
+
+}
+.box4:hover{
+
+    flex:4;
+
+
+}
+.box5:hover{
+
+    flex:4;
+
+
+}
+.box6:hover{
+
+    flex:4;
+
+
+}
+.box7:hover{
+
+    flex:4;
+
+
+}
+img {
+    height: auto;
+    
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+.box1:hover img {
+
+    
+    visibility: visible;
+     opacity: 1;
+  }
+ .box2:hover img {
+    visibility: visible;
+     opacity: 1;
+
+ }
+ .box3:hover img {
+    visibility: visible;
+     opacity: 1;
+
+   }
+   .box4:hover img {
+    visibility: visible;
+     opacity: 1;
+
+   }
+   .box5:hover img {
+    visibility: visible;
+     opacity: 1;
+
+   }
+   .box6:hover img {
+    visibility: visible;
+     opacity: 1;
+   }
+   .box7:hover img {
+    visibility: visible;
+     opacity: 1;
+   }
