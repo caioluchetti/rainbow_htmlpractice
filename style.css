@@ -5,7 +5,7 @@
 }
 
 .container{
-    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    background-color: black;
     width: 90%;
     margin: 10px auto;
     display: flex;
@@ -23,6 +23,9 @@
     flex: 1;
     transition: 1s;
     display: flex;
+    border-right: 10px solid;
+    border-image: linear-gradient(to right, red,orange)1 100%;
+    
 }
 .box2{
     position: relative;
@@ -34,6 +37,8 @@
     flex: 1;
     transition: 1s;
     display: flex;
+    border-right: 10px solid;
+    border-image: linear-gradient(to right, orange,yellow)1 100%;
 }
 .box3{
     position: relative;
@@ -45,6 +50,8 @@
     flex: 1;
     transition: 1s;
     display: flex;
+    border-right: 10px solid;
+    border-image: linear-gradient(to right, yellow,green)1 100%;
 }
 .box4{
     position: relative;
@@ -56,6 +63,8 @@
     flex: 1;
     transition: 1s;
     display: flex;
+    border-right: 10px solid;
+    border-image: linear-gradient(to right, green,#00657A,blue)1 100%;
 }
 .box5{
     position: relative;
@@ -67,7 +76,8 @@
     display: flex;
     flex: 1;
     transition: 1s;
-    display: flex;
+    border-right: 10px solid;
+    border-image: linear-gradient(to right, blue,indigo)1 100%;
 }
 .box6{
     position: relative;
@@ -79,6 +89,8 @@
     flex: 1;
     transition: 1s;
     display: flex;
+    border-right: 10px solid;
+    border-image: linear-gradient(to right, indigo,violet)1 100%;
 }
 .box7{
     position: relative;
@@ -90,6 +102,7 @@
     flex: 1;
     transition: 1s;
     display: flex;
+    
 }
 .imag{
     
